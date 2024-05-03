@@ -1,5 +1,4 @@
-# NgxInputPriceFormat
-
+# InputPrice
 This directive automatically formats input values as currency with decimal places.
 
 Features
@@ -19,8 +18,7 @@ Install the package using npm:
 
 Import the ```InputPriceModule```  in your app module:'s ```imports```
 
-```
-import { NgModule } from '@angular/core';
+```import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { InputPriceModule } from 'lib-input-price';
 
@@ -35,8 +33,7 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
-```
+export class AppModule { }```
 
 
 Then, apply the ```libInputPrice``` directive to any input element:
